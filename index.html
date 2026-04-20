@@ -3,16 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>عالم البرمجة | Programming World</title>
-    <meta name="description" content="تعريف شامل للبرمجة، أنواعها ومجالاتها مع صور برمجية حقيقية. Explore programming with real coding images.">
-    <meta name="keywords" content="البرمجة, برمجة, أنواع البرمجة, مجالات البرمجة, programming, programming types, fields of programming">
+    <title>عالم البرمجة: تعريف شامل، أنواع، مجالات، أسئلة شائعة | تعلم البرمجة للمبتدئين</title>
+    
+    <!-- SEO Meta Tags محسنة بكلمات مفتاحية طويلة ومتنوعة -->
+    <meta name="description" content="تعلم البرمجة من الصفر: تعريف شامل للبرمجة، أنواعها (كائنية، وظيفية، ويب)، مجالاتها (ذكاء اصطناعي، أمن سيبراني، تطوير ألعاب)، وأهم الأسئلة الشائعة. دليل مبتدئين 2025 مع صور حقيقية.">
+    <meta name="keywords" content="البرمجة, تعلم البرمجة, أنواع البرمجة, مجالات البرمجة, البرمجة كائنية التوجه, البرمجة الوظيفية, برمجة الويب, الذكاء الاصطناعي, تطوير التطبيقات, الأمن السيبراني, دليل البرمجة, أسئلة عن البرمجة, كيف أتعلم البرمجة, أفضل لغات البرمجة, البرمجة للمبتدئين, شرح البرمجة بالصور">
     <meta name="author" content="مطور الموقع">
     <meta name="google-site-verification" content="Gg33kDFGw9VkNptebajPkzLQynofdDqPn1tSSDz1l-s" />
-    <meta property="og:title" content="عالم البرمجة | Programming World">
-    <meta property="og:description" content="رحلة في أعماق البرمجة، تعريف، أنواع، مجالات وصور برمجية مميزة.">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / فيسبوك -->
+    <meta property="og:title" content="عالم البرمجة: تعريف شامل، أنواع، مجالات وصور برمجية">
+    <meta property="og:description" content="دليل متكامل لتعلم البرمجة: تعريف، أنواع، مجالات، أسئلة شائعة، وصور حقيقية. مناسب للمبتدئين والمحترفين.">
     <meta property="og:image" content="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1200">
+    <meta property="og:url" content="https://yourdomain.com/">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="ar_AR">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="عالم البرمجة: تعريف شامل، أنواع، مجالات">
+    <meta name="twitter:description" content="دليلك الشامل لفهم البرمجة، أنواعها، مجالاتها، وأسئلة شائعة مع إجاباتها.">
+    <meta name="twitter:image" content="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=800">
+    
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
@@ -29,7 +42,7 @@
         .hero h1 { font-size: 3.8rem; font-weight: 800; background: linear-gradient(135deg, #FFF, #b3e4ff); background-clip: text; -webkit-background-clip: text; color: transparent; letter-spacing: -1px; text-shadow: 0 2px 5px rgba(0,0,0,0.2); }
         .hero p { font-size: 1.3rem; max-width: 700px; margin: 0 auto; opacity: 0.95; background: rgba(0,0,0,0.3); backdrop-filter: blur(5px); padding: 0.5rem 1.2rem; border-radius: 50px; }
         .container { max-width: 1280px; margin: 0 auto; padding: 0 24px; }
-        .definition-card, .gallery-show, .benefits-box, .conclusion-box { background: white; border-radius: 2rem; padding: 2rem; margin-bottom: 2.5rem; box-shadow: 0 20px 35px -12px rgba(0,0,0,0.08); transition: 0.2s; }
+        .definition-card, .gallery-show, .benefits-box, .conclusion-box, .faq-section { background: white; border-radius: 2rem; padding: 2rem; margin-bottom: 2.5rem; box-shadow: 0 20px 35px -12px rgba(0,0,0,0.08); transition: 0.2s; }
         .section-title { font-size: 2.2rem; font-weight: 800; background: linear-gradient(120deg, #1A4A6F, #2C7DA0); background-clip: text; -webkit-background-clip: text; color: transparent; margin-bottom: 0.5rem; display: inline-block; }
         .section-sub { color: #2c3e50; margin-bottom: 2rem; font-size: 1.1rem; border-right: 4px solid #2C7DA0; padding-right: 1rem; }
         .grid-types, .grid-fields { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 2rem; margin: 2rem 0; }
@@ -47,6 +60,12 @@
         .gallery-item img { width: 100%; height: 120px; object-fit: cover; border-radius: 1rem; }
         footer { background: #0b2b3b; color: #cddce9; text-align: center; padding: 2rem; margin-top: 2rem; border-radius: 2rem 2rem 0 0; }
         .btn-code { background: #1f6392; color: white; padding: 0.4rem 1rem; border-radius: 40px; font-size: 0.8rem; display: inline-block; }
+        .faq-question { margin-bottom: 1rem; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.8rem; }
+        .faq-question strong { font-size: 1.1rem; color: #0f3b4f; }
+        .faq-question p { margin-top: 0.3rem; color: #2c5270; }
+        .internal-links { display: flex; flex-wrap: wrap; gap: 0.8rem; justify-content: center; margin-top: 1rem; }
+        .internal-links a { background: #eef2ff; padding: 0.3rem 0.8rem; border-radius: 30px; text-decoration: none; color: #1f6392; font-size: 0.8rem; transition: 0.2s; }
+        .internal-links a:hover { background: #2C7DA0; color: white; }
         @media (max-width: 700px) { .hero h1 { font-size: 2.5rem; } .section-title { font-size: 1.8rem; } .lang-switch { top: 12px; right: 12px; padding: 4px 12px; } }
         [dir="ltr"] body { font-family: 'Inter', 'Cairo', sans-serif; }
         [dir="ltr"] .section-sub { border-right: none; border-left: 4px solid #2C7DA0; padding-right: 0; padding-left: 1rem; }
@@ -67,19 +86,23 @@
     </section>
 
     <div class="container">
-        <!-- تعريف البرمجة -->
+        <!-- تعريف البرمجة مع إضافة كلمات مفتاحية طويلة -->
         <div class="definition-card">
             <h2 class="section-title"><i class="fas fa-info-circle"></i> <span id="def-title">ما هي البرمجة؟</span></h2>
             <div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: center; margin-top: 1rem;">
                 <div style="flex:2">
                     <p id="def-text1" style="font-size:1.1rem;"><strong>البرمجة</strong> هي عملية كتابة مجموعة من التعليمات (الأكواد) التي يفهمها الحاسوب لتنفيذ مهام محددة. إنها فن تحويل الأفكار إلى واقع رقمي، من تطبيقات الهواتف إلى أنظمة الذكاء الاصطناعي.</p>
                     <p id="def-text2" style="margin-top:1rem;">🎯 ببساطة: البرمجة = التفكير المنطقي + الإبداع + الأدوات البرمجية.</p>
+                    <!-- فقرة جديدة غنية بالكلمات المفتاحية الطويلة -->
+                    <p style="margin-top: 1rem; background: #eef2ff; padding: 0.8rem; border-radius: 1rem;">
+                        📘 <strong id="keyword-rich-text">هل تبحث عن: "كيف أتعلم البرمجة من البداية؟"، "أفضل مسار لتعلم البرمجة ذاتياً"، "مجالات البرمجة للمبتدئين"، "ما هي لغة البرمجة المناسبة لمشروعي؟"، "شرح البرمجة بالصور" – كل هذه الأسئلة تجد إجاباتها في هذا الدليل الشامل.</strong>
+                    </p>
                     <div style="background:#eef2ff; padding:0.8rem; border-radius:1rem; margin-top:1rem;">
                         <i class="fas fa-quote-right"></i> <span id="quote-text">"الجميع يجب أن يتعلم البرمجة لأنها تعلمك كيف تفكر." – ستيف جوبز</span>
                     </div>
                 </div>
                 <div style="flex:1; text-align:center;">
-                    <img src="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop" alt="Programming code on screen" style="width:100%; border-radius:1.5rem; box-shadow:0 10px 20px rgba(0,0,0,0.1);">
+                    <img src="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop" alt="شاشة حاسوب تعرض أكواد برمجية - تعلم البرمجة من الصفر" style="width:100%; border-radius:1.5rem; box-shadow:0 10px 20px rgba(0,0,0,0.1);">
                 </div>
             </div>
         </div>
@@ -99,10 +122,10 @@
             <h3 style="font-size:1.8rem; font-weight:700;"><i class="fas fa-images"></i> <span id="gallery-title">معرض الصور البرمجية</span></h3>
             <p id="gallery-desc">لقطات حقيقية من عالم الأكواد والتطوير</p>
             <div class="gallery-grid">
-                <div class="gallery-item"><img src="https://images.pexels.com/photos/574070/pexels-photo-574070.jpeg?auto=compress&cs=tinysrgb&w=300&h=180&fit=crop" alt="code editor"><span>🖥️ <span class="gallery-lab1">محرر أكواد</span></span></div>
-                <div class="gallery-item"><img src="https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=300&h=180&fit=crop" alt="server room"><span>⌨️ <span class="gallery-lab2">خوادم وبيانات</span></span></div>
-                <div class="gallery-item"><img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=300&h=180&fit=crop" alt="AI brain"><span>⚙️ <span class="gallery-lab3">ذكاء اصطناعي</span></span></div>
-                <div class="gallery-item"><img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=300&h=180&fit=crop" alt="laptop coding"><span>🌍 <span class="gallery-lab4">تطوير ويب</span></span></div>
+                <div class="gallery-item"><img src="https://images.pexels.com/photos/574070/pexels-photo-574070.jpeg?auto=compress&cs=tinysrgb&w=300&h=180&fit=crop" alt="محرر أكواد برمجية - برمجة ويب"><span>🖥️ <span class="gallery-lab1">محرر أكواد</span></span></div>
+                <div class="gallery-item"><img src="https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=300&h=180&fit=crop" alt="خوادم وبيانات - بنية تحتية للبرمجة"><span>⌨️ <span class="gallery-lab2">خوادم وبيانات</span></span></div>
+                <div class="gallery-item"><img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=300&h=180&fit=crop" alt="ذكاء اصطناعي وتعلم آلة"><span>⚙️ <span class="gallery-lab3">ذكاء اصطناعي</span></span></div>
+                <div class="gallery-item"><img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=300&h=180&fit=crop" alt="تطوير ويب - برمجة مواقع"><span>🌍 <span class="gallery-lab4">تطوير ويب</span></span></div>
             </div>
         </div>
 
@@ -119,8 +142,24 @@
                 <div class="btn-code"><i class="fas fa-terminal"></i> <span id="start-btn">#ابدأ_الرحلة</span></div>
             </div>
             <div style="flex:1; text-align:center;">
-                <img src="https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop" alt="coding future" style="width:100%; border-radius:1.2rem;">
+                <img src="https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&fit=crop" alt="مبرمج يعمل على حاسوب - تعلم البرمجة خطوة بخطوة" style="width:100%; border-radius:1.2rem;">
             </div>
+        </div>
+
+        <!-- قسم الأسئلة الشائعة الجديد (FAQ) لتحسين SEO وجذب زوار جدد -->
+        <div class="faq-section">
+            <h2 class="section-title"><i class="fas fa-question-circle"></i> <span id="faq-title">أسئلة شائعة عن البرمجة</span></h2>
+            <div id="faq-container">
+                <!-- سيتم تعبئة الأسئلة بواسطة JS حسب اللغة -->
+            </div>
+        </div>
+
+        <!-- روابط داخلية لمقالات وهمية (تعزز بنية الموقع) -->
+        <div class="internal-links">
+            <a href="#" id="link1">📘 دليل تعلم البرمجة للمبتدئين</a>
+            <a href="#" id="link2">💻 أفضل لغات البرمجة 2025</a>
+            <a href="#" id="link3">🤖 مجالات البرمجة: الذكاء الاصطناعي والأمن السيبراني</a>
+            <a href="#" id="link4">📱 كيف تصبح مبرمجاً محترفاً؟</a>
         </div>
 
         <div class="conclusion-box" style="background:#0B2B40; color:white; border-radius:1.8rem; padding:2rem; text-align:center;">
@@ -139,6 +178,7 @@
                 main_title: "عالم البرمجة", hero_desc: "اكتشف أسرار البرمجة، أنواعها، وأهم مجالاتها مع صور برمجية حقيقية",
                 def_title: "ما هي البرمجة؟", def_text1: "<strong>البرمجة</strong> هي عملية كتابة مجموعة من التعليمات (الأكواد) التي يفهمها الحاسوب لتنفيذ مهام محددة. إنها فن تحويل الأفكار إلى واقع رقمي، من تطبيقات الهواتف إلى أنظمة الذكاء الاصطناعي.",
                 def_text2: "🎯 ببساطة: البرمجة = التفكير المنطقي + الإبداع + الأدوات البرمجية.",
+                keyword_rich: "📘 هل تبحث عن: \"كيف أتعلم البرمجة من البداية؟\"، \"أفضل مسار لتعلم البرمجة ذاتياً\"، \"مجالات البرمجة للمبتدئين\"، \"ما هي لغة البرمجة المناسبة لمشروعي؟\"، \"شرح البرمجة بالصور\" – كل هذه الأسئلة تجد إجاباتها في هذا الدليل الشامل.",
                 quote_text: "الجميع يجب أن يتعلم البرمجة لأنها تعلمك كيف تفكر. – ستيف جوبز",
                 types_title: "أنواع البرمجة", types_sub: "لغات وطرق برمجية مختلفة تناسب كل مجال",
                 fields_title: "مجالات البرمجة الواسعة", fields_sub: "من تطوير الألعاب إلى الذكاء الاصطناعي – أين تجد شغفك؟",
@@ -148,6 +188,17 @@
                 why_list: ["• فرص عمل غير محدودة برواتب مجزية.", "• تطوير حلول مبتكرة لمشاكل العالم الحقيقي.", "• تعزيز التفكير المنطقي وحل المشكلات.", "• بناء مشاريعك الخاصة من الصفر."],
                 start_btn: "#ابدأ_الرحلة", conclusion_title: "البرمجة هي مستقبل كل شيء", conclusion_text: "من تطبيقات الهواتف إلى استكشاف الفضاء، البرمجة أصبحت اللغة العالمية للابتكار. اختر مسارك وابدأ اليوم.",
                 footer_text: "عالم البرمجة - محتوى تعريفي شامل مع صور برمجية حقيقية | 2025",
+                // أسئلة شائعة
+                faq_title: "أسئلة شائعة عن البرمجة",
+                faq_list: [
+                    { q: "❓ ما هي البرمجة باختصار؟", a: "البرمجة هي كتابة أوامر للحاسوب بلغة يفهمها لتنفيذ مهام محددة، مثل إنشاء تطبيق أو موقع ويب." },
+                    { q: "❓ كيف أبدأ تعلم البرمجة من الصفر؟", a: "ابدأ بلغة سهلة مثل Python، ثم تدرب على حل مشكلات صغيرة، واستخدم منصات مجانية مثل Codecademy أو YouTube." },
+                    { q: "❓ ما أفضل لغات البرمجة للمبتدئين في 2025؟", a: "Python، JavaScript، و Scratch تعتبر من أفضل اللغات للمبتدئين لسهولتها ومجتمعها الكبير." },
+                    { q: "❓ هل البرمجة صعبة؟", a: "ليس بالضرورة، تحتاج إلى صبر وممارسة. العديد من المبرمجين بدأوا بدون خبرة سابقة." },
+                    { q: "❓ ما هي مجالات البرمجة الأعلى طلباً؟", a: "الذكاء الاصطناعي، تطوير الويب، تطبيقات الهواتف، والأمن السيبراني." },
+                    { q: "❓ كم يستغرق تعلم البرمجة؟", a: "يمكنك إتقان الأساسيات خلال 3-6 أشهر مع الممارسة اليومية، والاحتراف يحتاج إلى سنة أو أكثر." }
+                ],
+                link1: "📘 دليل تعلم البرمجة للمبتدئين", link2: "💻 أفضل لغات البرمجة 2025", link3: "🤖 مجالات البرمجة: الذكاء الاصطناعي والأمن السيبراني", link4: "📱 كيف تصبح مبرمجاً محترفاً؟",
                 types_data: [
                     { name: "🐘 البرمجة كائنية التوجه (OOP)", desc: "تعتمد على مفاهيم الكائنات والكلاسات، مثل الوراثة والتغليف. لغات: Java, C++, Python, C#. مثالية لتطبيقات المؤسسات والألعاب.", img: "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop" },
                     { name: "⚡ البرمجة الوظيفية", desc: "تعتمد على الدوال النقية وتجنب تغيير الحالة. لغات: Haskell, Scala, Elixir، وجزئياً JavaScript. مناسبة للأنظمة المتزامنة.", img: "https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop" },
@@ -167,6 +218,7 @@
                 main_title: "World of Programming", hero_desc: "Discover programming, its types, and major fields with real coding images",
                 def_title: "What is Programming?", def_text1: "<strong>Programming</strong> is writing instructions (code) that computers execute. It's turning ideas into digital reality, from mobile apps to AI.",
                 def_text2: "🎯 Simply: Programming = Logic + Creativity + Tools.",
+                keyword_rich: "📘 Looking for: 'How to learn programming from scratch?', 'Best self-learning path for programming', 'Programming fields for beginners', 'Which programming language suits my project?', 'Programming explained with images' – all answered in this comprehensive guide.",
                 quote_text: "Everyone should learn to program because it teaches you how to think. – Steve Jobs",
                 types_title: "Types of Programming", types_sub: "Different paradigms and languages for every need",
                 fields_title: "Vast Fields of Programming", fields_sub: "From game dev to AI – where does your passion lie?",
@@ -176,6 +228,16 @@
                 why_list: ["• Unlimited high-paying job opportunities.", "• Build innovative solutions to real problems.", "• Enhance logical thinking and problem-solving.", "• Create your own projects from scratch."],
                 start_btn: "#Start_Journey", conclusion_title: "Programming is the future", conclusion_text: "From mobile apps to space exploration, programming is the global language of innovation.",
                 footer_text: "Programming World - comprehensive guide with real coding images | 2025",
+                faq_title: "Frequently Asked Questions about Programming",
+                faq_list: [
+                    { q: "❓ What is programming in short?", a: "Programming is giving instructions to a computer in a language it understands to perform tasks, like creating an app or website." },
+                    { q: "❓ How do I start learning programming from scratch?", a: "Start with an easy language like Python, practice solving small problems, and use free platforms like Codecademy or YouTube." },
+                    { q: "❓ What are the best programming languages for beginners in 2025?", a: "Python, JavaScript, and Scratch are among the best for beginners due to their simplicity and large community." },
+                    { q: "❓ Is programming difficult?", a: "Not necessarily; it requires patience and practice. Many programmers started with no prior experience." },
+                    { q: "❓ What are the most in-demand programming fields?", a: "Artificial Intelligence, web development, mobile apps, and cybersecurity." },
+                    { q: "❓ How long does it take to learn programming?", a: "You can master basics in 3-6 months with daily practice; becoming proficient may take a year or more." }
+                ],
+                link1: "📘 Beginner's Guide to Programming", link2: "💻 Best Programming Languages 2025", link3: "🤖 Programming Fields: AI & Cybersecurity", link4: "📱 How to Become a Professional Programmer?",
                 types_data: [
                     { name: "🐘 Object-Oriented Programming (OOP)", desc: "Based on objects/classes, inheritance, encapsulation. Languages: Java, C++, Python, C#.", img: "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop" },
                     { name: "⚡ Functional Programming", desc: "Pure functions, immutable data. Languages: Haskell, Scala, Elixir, partly JS. Great for concurrency.", img: "https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop" },
@@ -201,6 +263,7 @@
             document.getElementById('def-title').innerText = t.def_title;
             document.getElementById('def-text1').innerHTML = t.def_text1;
             document.getElementById('def-text2').innerHTML = t.def_text2;
+            document.getElementById('keyword-rich-text').innerHTML = t.keyword_rich;
             document.getElementById('quote-text').innerHTML = t.quote_text;
             document.getElementById('types-title').innerText = t.types_title;
             document.getElementById('types-sub').innerText = t.types_sub;
@@ -220,14 +283,34 @@
             document.getElementById('conclusion-title').innerText = t.conclusion_title;
             document.getElementById('conclusion-text').innerText = t.conclusion_text;
             document.getElementById('footer-text').innerHTML = t.footer_text;
-
+            
+            // تحديث الأسئلة الشائعة
+            document.getElementById('faq-title').innerText = t.faq_title;
+            const faqContainer = document.getElementById('faq-container');
+            faqContainer.innerHTML = '';
+            t.faq_list.forEach(faq => {
+                const div = document.createElement('div');
+                div.className = 'faq-question';
+                div.innerHTML = `<strong>${faq.q}</strong><p>${faq.a}</p>`;
+                faqContainer.appendChild(div);
+            });
+            
+            // تحديث الروابط الداخلية
+            document.getElementById('link1').innerText = t.link1;
+            document.getElementById('link2').innerText = t.link2;
+            document.getElementById('link3').innerText = t.link3;
+            document.getElementById('link4').innerText = t.link4;
+            
+            // تحديث أنواع البرمجة
             const typesContainer = document.getElementById('types-container');
             typesContainer.innerHTML = '';
             t.types_data.forEach(type => {
                 const card = document.createElement('div'); card.className = 'type-card';
-                card.innerHTML = `<div class="card-img"><img src="${type.img}" alt="programming type"></div><div class="card-content"><h3>${type.name}</h3><p>${type.desc}</p></div>`;
+                card.innerHTML = `<div class="card-img"><img src="${type.img}" alt="نوع برمجة: ${type.name}"></div><div class="card-content"><h3>${type.name}</h3><p>${type.desc}</p></div>`;
                 typesContainer.appendChild(card);
             });
+            
+            // تحديث مجالات البرمجة
             const fieldsContainer = document.getElementById('fields-container');
             fieldsContainer.innerHTML = '';
             t.fields_data.forEach(field => {
@@ -235,9 +318,11 @@
                 fieldDiv.innerHTML = `<div class="field-icon"><i class="fas ${field.icon}"></i></div><div class="field-text"><h4>${field.title}</h4><p>${field.desc}</p></div>`;
                 fieldsContainer.appendChild(fieldDiv);
             });
+            
             document.body.dir = lang === 'en' ? 'ltr' : 'rtl';
             document.body.style.fontFamily = lang === 'en' ? "'Inter', 'Cairo', sans-serif" : "'Cairo', 'Inter', sans-serif";
         }
+        
         document.querySelectorAll('.lang-btn').forEach(btn => {
             btn.addEventListener('click', function() {
                 const lang = this.getAttribute('data-lang');
@@ -250,4 +335,4 @@
         updateContent('ar');
     </script>
 </body>
-    </html>
+</html>
